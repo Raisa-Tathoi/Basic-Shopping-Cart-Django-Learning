@@ -1,0 +1,9 @@
+def verification():
+    while True:
+        email = input("Insert Email: ")
+        verify = email.endswith("@educbe.ca")
+        if verify == True:
+            print("All good!")
+            break
+        else:
+            print("ERROR")
